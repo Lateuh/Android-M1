@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="15dp">
+
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_alignParentTop="true"
+    android:text="@string/voyage"
+    android:textSize="50sp"
+    android:layout_marginTop="20dp"
+    android:textAlignment="center"
+    android:textColor="@color/color1"
+    />
+
+
+
+    <TextView
+        android:id="@+id/labelDepart"
+        android:text="@string/depart"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignTop="@id/depart"
+        android:layout_alignBottom="@id/depart"
+        android:textSize="22sp"
+        android:paddingTop="6dp"
+        />
+
+
+    <EditText
+        android:id="@+id/depart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/depart"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/labelDepart"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="200dp"
+        />
+
+
+    <TextView
+        android:id="@+id/labelArrivee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/arrivee"
+        android:text="@string/arrivee"
+        android:textSize="22sp"
+        android:paddingTop="6dp"
+        />
+
+    <EditText
+        android:id="@+id/arrivee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/arrivee"
+        android:layout_toEndOf="@id/labelArrivee"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/depart"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/submitButton"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/arrivee"
+        android:layout_marginTop="50dp"
+        android:text="@string/submit"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>

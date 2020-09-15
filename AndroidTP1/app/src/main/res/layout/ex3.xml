@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="25dp"
+
+    >
+
+
+
+    <TextView
+        android:id="@+id/labelNom"
+        android:text="Nom :"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignTop="@id/nom"
+        android:layout_alignBottom="@id/nom"
+        android:textSize="22sp"
+        />
+
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez votre nom"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/labelNom"
+        android:layout_marginLeft="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/labelPrenom"
+        android:text="Prenom :"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignTop="@id/prenom"
+        android:layout_alignBottom="@id/prenom"
+        android:textSize="22sp"
+        />
+
+
+    <EditText
+        android:id="@+id/prenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez votre prenom"
+        android:layout_below="@+id/nom"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/labelPrenom"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/labelAge"
+        android:text="Age :"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignTop="@id/age"
+        android:layout_alignBottom="@id/age"
+        android:textSize="22sp"
+        />
+
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez votre age"
+        android:layout_below="@+id/prenom"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:layout_toRightOf="@id/labelAge"
+        android:layout_marginLeft="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/labelDomain"
+        android:text="Domaine :"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignTop="@id/domain"
+        android:layout_alignBottom="@id/domain"
+        android:textSize="22sp"
+        />
+
+    <EditText
+        android:id="@+id/domain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez votre domaine"
+        android:layout_below="@+id/age"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/labelDomain"
+        android:layout_marginLeft="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/labelNumTel"
+        android:text="Num. Tel. :"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignTop="@id/numtel"
+        android:layout_alignBottom="@id/numtel"
+        android:textSize="22sp"
+        />
+
+    <EditText
+        android:id="@+id/numtel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez votre num de tel"
+        android:layout_below="@+id/domain"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:layout_toRightOf="@id/labelNumTel"
+        android:layout_marginLeft="10dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/numtel"
+        android:layout_marginTop="50dp"
+        android:text="submit"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

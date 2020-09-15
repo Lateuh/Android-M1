@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_main">Main Activity</string>
+    <string name="age">Age :</string>
+    <string name="domaine">Domain</string>
+    <string name="entrez_votre_age">Enter your age</string>
+    <string name="entrez_votre_domaine">Enter your domain</string>
+    <string name="entrez_votre_nom">Enter your name</string>
+    <string name="entrez_votre_num_de_tel">Enter your tel number</string>
+    <string name="entrez_votre_prenom">Enter your firstname</string>
+    <string name="nom">Name :</string>
+    <string name="num_tel">Tel Num :</string>
+    <string name="prenom">Firstname :</string>
+    <string name="submit">Submit</string>
+    <string name="clic1">You confirmed</string>
+    <string name="confirmer">Are you sure you want to confirm ?</string>
+    <string name="titre_confirmer">Confirm</string>
+    <string name="non">No</string>
+    <string name="oui">Yes</string>
+    <string name="clic2">You canceled</string>
+    <string name="euh">Hmm</string>
+    <string name="vous_etes">You are</string>
+    <string name="votre_numero">"Your number is "</string>
+    <string name="vous_avez">You are</string>
+    <string name="vous_travaillez">"Your work in "</string>
+    <string name="ans">years old</string>
+    <string name="retour">Back</string>
+    <string name="appeler">Call</string>
+    <string name="erreur1">error</string>
+</resources>

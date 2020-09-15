@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="false">AndroidTp1Ex9</string>
+    <string name="agenda">Agenda</string>
+    <string name="creer">Créer évènement</string>
+    <string name="voir">Voir évènement</string>
+
+</resources>

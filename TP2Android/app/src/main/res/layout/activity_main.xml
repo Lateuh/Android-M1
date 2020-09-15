@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="15dp"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Add Contact"
+        android:textSize="40sp"
+        android:textAlignment="center"
+
+        />
+
+
+    <TextView
+        android:id="@+id/labelFirstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/firstname"
+        android:layout_alignBottom="@id/firstname"
+        android:gravity="center"
+        android:text="Firstname :"
+        android:textSize="20sp"
+        />
+
+
+    <EditText
+        android:id="@+id/firstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Firstname"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/lastname"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:inputType="textPersonName"
+        />
+
+    <TextView
+        android:id="@+id/labelLastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/lastname"
+        android:layout_alignBottom="@id/lastname"
+        android:gravity="center"
+        android:text="Lastname :"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/lastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Lastname"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:inputType="textPersonName"
+        />
+
+    <TextView
+        android:id="@+id/labelTelnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/telnum"
+        android:layout_alignBottom="@id/telnum"
+        android:gravity="center"
+        android:text="Tel num :"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/telnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Tel num"
+        android:layout_below="@id/lastname"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:inputType="phone"
+        />
+
+
+    <Button
+        android:id="@+id/addContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:text="ADD \&amp; SEE CONTACTS"
+        />
+
+</RelativeLayout>

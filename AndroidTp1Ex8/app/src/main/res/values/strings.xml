@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">AndroidTp1Ex8</string>
+    <string name="depart">Ville de départ</string>
+    <string name="arrivee">Ville d\'arrivée</string>
+    <string name="voyage">Voyage</string>
+    <string name="submit">Valider</string>
+    <string name="retour">Retour</string>
+    <string name="pasVille">Pas d\'itinéraire trouvé</string>
+</resources>

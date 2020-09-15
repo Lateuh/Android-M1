@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="agenda">Diary</string>
+    <string name="creer">New event</string>
+    <string name="retour">Back</string>
+    <string name="submit">Confirm</string>
+    <string name="demande">Pick the date and fill the blank</string>
+    <string name="add">Add event</string>
+    <string name="choix_date">Select date</string>
+    <string name="entrez_event">Name event</string>
+    <string name="creation">Adding event</string>
+</resources>

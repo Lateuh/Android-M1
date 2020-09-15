@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity3"
+    android:background="@color/color3"
+    android:padding="25dp">
+
+
+
+    <ImageView
+        android:src="@drawable/phone_call"
+        android:id="@+id/img_phone_call"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="150dp"
+
+
+    />
+
+
+    <TextView
+        android:id="@+id/numtel3"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/color2"
+        android:layout_toEndOf="@id/img_phone_call"
+        android:layout_alignBottom="@id/img_phone_call"
+        android:layout_marginStart="20dp"
+        />
+
+
+    <Button
+        android:id="@+id/callButton"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/appeler"
+        android:textSize="30sp"
+        android:textColor="@color/color2"
+        android:textStyle="normal|bold"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

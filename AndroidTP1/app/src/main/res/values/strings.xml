@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name" translatable="false">AndroidTP1</string>
+    <string name="nom">Nom :</string>
+    <string name="entrez_votre_nom">Entrez votre nom</string>
+    <string name="prenom">Prenom :</string>
+    <string name="entrez_votre_prenom">Entrez votre prenom</string>
+    <string name="age">Age :</string>
+    <string name="entrez_votre_age">Entrez votre age</string>
+    <string name="domaine">Domaine :</string>
+    <string name="entrez_votre_domaine">Entrez votre domaine</string>
+    <string name="num_tel">Num Tel :</string>
+    <string name="entrez_votre_num_de_tel">Entrez votre num de tel</string>
+    <string name="submit">Valider</string>
+    <string name="activity_main">Activité Principale</string>
+    <string name="clic1">T\'as confirmé</string>
+    <string name="clic2">T\'as annulé</string>
+    <string name="confirmer">Vous êtes sûr de vouloir confirmer ?</string>
+    <string name="titre_confirmer">Confirmer</string>
+    <string name="oui">Oui</string>
+    <string name="non">Non</string>
+    <string name="euh">Euh</string>
+    <string name="vous_etes">Vous êtes</string>
+    <string name="vous_avez">Vous avez</string>
+    <string name="vous_travaillez">Vous travaillez dans le domaine </string>
+    <string name="votre_numero">Votre numero est le </string>
+    <string name="ans">ans</string>
+    <string name="retour">Retour</string>
+    <string name="erreur1">erreur</string>
+    <string name="appeler">Appeler</string>
+
+</resources>

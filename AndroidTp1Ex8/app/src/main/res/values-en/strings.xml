@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="arrivee">To</string>
+    <string name="depart">From</string>
+    <string name="voyage">Travel</string>
+    <string name="submit">Confirm</string>
+    <string name="retour">back</string>
+    <string name="pasVille">None route found</string>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name" translatable="false">AndroidTp1Agenda</string>
+    <string name="agenda">Agenda</string>
+    <string name="creer">Créer event</string>
+    <string name="submit">Valider</string>
+    <string name="retour">Retour</string>
+    <string name="demande">Choississez la date et remplissez le champ</string>
+    <string name="add">Ajouter évènement</string>
+    <string name="entrez_event">Entrez event</string>
+    <string name="choix_date">Choisir date</string>
+    <string name="creation">Création évènement</string>
+</resources>
